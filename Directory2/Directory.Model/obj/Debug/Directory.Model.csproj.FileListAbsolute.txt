@@ -1,0 +1,4 @@
+C:\Users\pc9\documents\visual studio 2013\Projects\Directory\Directory.Model\bin\Debug\Directory.Model.dll
+C:\Users\pc9\documents\visual studio 2013\Projects\Directory\Directory.Model\bin\Debug\Directory.Model.pdb
+C:\Users\pc9\documents\visual studio 2013\Projects\Directory\Directory.Model\obj\Debug\Directory.Model.dll
+C:\Users\pc9\documents\visual studio 2013\Projects\Directory\Directory.Model\obj\Debug\Directory.Model.pdb
