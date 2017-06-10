@@ -15,6 +15,8 @@ namespace Directory
         /// <returns></returns>
         public bool IsValid()
         {
+            //variable prueba
+            int prueba;
             int number;
             bool isValid = int.TryParse(Text, out number);
             return isValid;

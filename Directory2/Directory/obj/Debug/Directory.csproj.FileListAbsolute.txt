@@ -21,3 +21,6 @@ z:\COMPARTIDO_VM\Documentos\Visual Studio 2015\Projects\Directory2\Directory\obj
 C:\Users\Omar\Documents\Visual Studio 2015\Projects\PTeam\Directory2\Directory\bin\Debug\Directory.exe.config
 C:\Users\Omar\Documents\Visual Studio 2015\Projects\PTeam\Directory2\Directory\obj\Debug\Directory.exe
 C:\Users\Omar\Documents\Visual Studio 2015\Projects\PTeam\Directory2\Directory\obj\Debug\Directory.pdb
+C:\Users\Valeria\Documents\Visual Studio 2015\Projects\proyecto\PTeam\Directory2\Directory\bin\Debug\Directory.exe.config
+C:\Users\Valeria\Documents\Visual Studio 2015\Projects\proyecto\PTeam\Directory2\Directory\obj\Debug\Directory.exe
+C:\Users\Valeria\Documents\Visual Studio 2015\Projects\proyecto\PTeam\Directory2\Directory\obj\Debug\Directory.pdb
