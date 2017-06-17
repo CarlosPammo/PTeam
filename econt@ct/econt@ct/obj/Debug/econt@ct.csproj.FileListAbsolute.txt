@@ -1,2 +1,0 @@
-Z:\COMPARTIDO_VM\Documentos\Visual Studio 2015\Projects\econt@ct\econt@ct\bin\Debug\econt@ct.exe.config
-C:\Users\Omar\Documents\Visual Studio 2015\Projects\PTeam\econt@ct\econt@ct\bin\Debug\econt@ct.exe.config
