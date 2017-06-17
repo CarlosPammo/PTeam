@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "econtact", "econtact\econtact.csproj", "{B3FA67AC-899A-49ED-9F40-918B294F5A71}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Directory.Model", "Directory.Model\Directory.Model.csproj", "{A66BD150-29FE-437A-A7B0-E0C660BC84B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Directory.Controller", "Directory.Controller\Directory.Controller.csproj", "{870C44BD-77C2-433C-99C5-D65BEB396239}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B3FA67AC-899A-49ED-9F40-918B294F5A71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3FA67AC-899A-49ED-9F40-918B294F5A71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3FA67AC-899A-49ED-9F40-918B294F5A71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3FA67AC-899A-49ED-9F40-918B294F5A71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A66BD150-29FE-437A-A7B0-E0C660BC84B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A66BD150-29FE-437A-A7B0-E0C660BC84B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A66BD150-29FE-437A-A7B0-E0C660BC84B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A66BD150-29FE-437A-A7B0-E0C660BC84B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{870C44BD-77C2-433C-99C5-D65BEB396239}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{870C44BD-77C2-433C-99C5-D65BEB396239}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{870C44BD-77C2-433C-99C5-D65BEB396239}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{870C44BD-77C2-433C-99C5-D65BEB396239}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
