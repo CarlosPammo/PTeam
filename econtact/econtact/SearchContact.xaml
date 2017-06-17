@@ -20,10 +20,10 @@
             </Grid.ColumnDefinitions>
 
             <TextBox Grid.Column="0" Margin="10" Height="30"/>
-            <Button x:Name="BtnSearch" Grid.Column="1" Margin="10" Height="30" Content="Buscar" Click="BtnSearch_Click" />
+            <Button x:Name="BtnSearch" Grid.Column="1" Margin="10" Height="30" Content="Buscar" />
         </Grid>
         <DataGrid x:Name="DGContacts" Grid.Row="1" Margin="10" AutoGenerateColumns="False"
-				  DataContext="{Binding}" ItemsSource="{Binding}" SelectionChanged="DGContacts_SelectionChanged">
+				  DataContext="{Binding}" ItemsSource="{Binding}" >
             <DataGrid.Columns>
                 <DataGridTextColumn Header="Nombre" Binding="{Binding Path=Name}"/>
                 <DataGridTextColumn Header="Apellido" Binding="{Binding Path=Lastname}"/>
@@ -38,8 +38,8 @@
                 <ColumnDefinition />
             </Grid.ColumnDefinitions>
 
-            <Button x:Name="BtnNew" Grid.Column="1" Height="30" Margin="10" Content="Nuevo" Click="BtnNew_Click" />
-            <Button x:Name="BtnCerrar" Grid.Column="2" Height="30" Margin="10" Content="Cerrar" Click="BtnCerrar_Click" />
+            <Button x:Name="BtnNew" Grid.Column="1" Height="30" Margin="10" Content="Nuevo" />
+            <Button x:Name="BtnCerrar" Grid.Column="2" Height="30" Margin="10" Content="Cerrar" />
         </Grid>
 
     </Grid>

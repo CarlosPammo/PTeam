@@ -12,13 +12,13 @@
             <RowDefinition Height="2*"/>
             <RowDefinition />
         </Grid.RowDefinitions>
-        <Grid Grid.Row="0">
+        <Grid Grid.Row="0" Margin="0,0,0,10">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="2*"/>
                 <ColumnDefinition />
             </Grid.ColumnDefinitions>
         </Grid>
-        <Grid Grid.Row="1" Grid.Column="1">
+        <Grid Margin="0,50,0,0" Grid.RowSpan="2">
             <Grid.RowDefinitions>
                 <RowDefinition/>
                 <RowDefinition/>
@@ -39,9 +39,11 @@
                 <ColumnDefinition />
                 <ColumnDefinition Width="2*"/>
                 <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="2*"/>
                 <ColumnDefinition />
             </Grid.ColumnDefinitions>
-            <Button x:Name="BtnAceptar" Grid.Column="2" Height="30" Margin="10" Content="Aceptar" Click="BtnAceptar_Click" />
+            <Button x:Name="BtnAceptar" Grid.Column="2" Height="30" Margin="5" Content="Accept" />
+            <Button x:Name="BtnCancel" Grid.Column="3" Height="30" Margin="5" Content="Exit" />
         </Grid>
     </Grid>
 </Window>
