@@ -58,7 +58,17 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+<<<<<<< HEAD
+    <Compile Include="WindowSearchContact.xaml.cs">
+      <DependentUpon>WindowSearchContact.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WindowsNewContact.xaml.cs">
+      <DependentUpon>WindowsNewContact.xaml</DependentUpon>
+    </Compile>
+    <Page Include="Login.xaml">
+=======
     <Page Include="MainMenu.xaml">
+>>>>>>> 2c1d109c6ace3d9d8cef352194deae1633485596
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -70,13 +80,26 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+<<<<<<< HEAD
+    <Compile Include="Login.xaml.cs">
+      <DependentUpon>Login.xaml</DependentUpon>
+=======
     <Compile Include="MainMenu.xaml.cs">
       <DependentUpon>MainMenu.xaml</DependentUpon>
+>>>>>>> 2c1d109c6ace3d9d8cef352194deae1633485596
     </Compile>
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="WindowSearchContact.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WindowsNewContact.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">
