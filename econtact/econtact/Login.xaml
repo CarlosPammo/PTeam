@@ -12,13 +12,13 @@
             <RowDefinition Height="2*"/>
             <RowDefinition />
         </Grid.RowDefinitions>
-        <Grid Grid.Row="0" Margin="0,0,0,10">
+        <Grid Grid.Row="0" Margin="0,0,0,10" Background="Black">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="2*"/>
                 <ColumnDefinition />
             </Grid.ColumnDefinitions>
         </Grid>
-        <Grid Margin="0,50,0,0" Grid.RowSpan="2">
+        <Grid Margin="0,50,0,0" Grid.RowSpan="2" Background="Black">
             <Grid.RowDefinitions>
                 <RowDefinition/>
                 <RowDefinition/>
@@ -29,12 +29,12 @@
                 <ColumnDefinition Width="2*"/>
                 <ColumnDefinition />
             </Grid.ColumnDefinitions>
-            <Label x:Name="lblUsuario" Content="USUARIO" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" />
-            <Label x:Name="lblContrasena" Content="CONTRASENA" Grid.Column="1" HorizontalAlignment="Center" Grid.Row="1" VerticalAlignment="Center"/>
+            <Label x:Name="lblUsuario" Content="User:" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="#FFF5E4E4" FontFamily="Showcard Gothic" FontSize="14" />
+            <Label x:Name="lblContrasena" Content="Password:" Grid.Column="1" HorizontalAlignment="Center" Grid.Row="1" VerticalAlignment="Center" Foreground="#FFF3E9E9" FontFamily="Showcard Gothic" FontSize="14"/>
             <TextBox x:Name="txUser" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Center" Width="130"/>
             <TextBox x:Name="txPassword" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Center" Width="130" Grid.Row="2"/>
         </Grid>
-        <Grid Grid.Row="2">
+        <Grid Grid.Row="2" Background="Black">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition />
                 <ColumnDefinition Width="2*"/>
