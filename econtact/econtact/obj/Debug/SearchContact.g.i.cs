@@ -49,7 +49,7 @@ namespace econtact {
         #line hidden
         
         
-        #line 25 "..\..\SearchContact.xaml"
+        #line 31 "..\..\SearchContact.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.DataGrid DGContacts;
         
@@ -57,7 +57,7 @@ namespace econtact {
         #line hidden
         
         
-        #line 41 "..\..\SearchContact.xaml"
+        #line 47 "..\..\SearchContact.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Button BtnNew;
         
@@ -65,7 +65,7 @@ namespace econtact {
         #line hidden
         
         
-        #line 42 "..\..\SearchContact.xaml"
+        #line 48 "..\..\SearchContact.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Button BtnCerrar;
         
@@ -106,12 +106,20 @@ namespace econtact {
             this.BtnSearch = ((System.Windows.Controls.Button)(target));
             return;
             case 2:
-            this.DGContacts = ((System.Windows.Controls.DataGrid)(target));
+            
+            #line 24 "..\..\SearchContact.xaml"
+            ((System.Windows.Controls.ComboBox)(target)).SelectionChanged += new System.Windows.Controls.SelectionChangedEventHandler(this.CbxSearch_SelectionChanged);
+            
+            #line default
+            #line hidden
             return;
             case 3:
-            this.BtnNew = ((System.Windows.Controls.Button)(target));
+            this.DGContacts = ((System.Windows.Controls.DataGrid)(target));
             return;
             case 4:
+            this.BtnNew = ((System.Windows.Controls.Button)(target));
+            return;
+            case 5:
             this.BtnCerrar = ((System.Windows.Controls.Button)(target));
             return;
             }

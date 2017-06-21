@@ -23,5 +23,10 @@ namespace econtact
         {
             InitializeComponent();
         }
+
+        private void CbxSearch_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
     }
 }
