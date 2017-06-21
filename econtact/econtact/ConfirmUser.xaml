@@ -24,8 +24,8 @@
         </Grid.ColumnDefinitions>
         <Label x:Name="lblUser" Content="User:" Grid.Column="1" Foreground="#FFF5E4E4" FontFamily="Showcard Gothic" FontSize="14" VerticalContentAlignment="Center"  HorizontalContentAlignment="Center" Grid.Row="1" Margin="0,1,0,36" Grid.RowSpan="2" />
         <Label x:Name="lblConfirmUser" Content="Confirm User:" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Foreground="#FFF5E4E4" FontFamily="Showcard Gothic" FontSize="14" Grid.Column="1" Grid.Row="2" />
-        <Label x:Name="lblContrasena" Content="Password:" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Foreground="#FFF5E4E4" FontFamily="Showcard Gothic" FontSize="14" Grid.Column="1" Grid.Row="3"/>
-        <Label x:Name="lblContrasenaConfirm" Content="Confirm Password:" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Foreground="#FFF5E4E4" FontFamily="Showcard Gothic" FontSize="14" Grid.Row="4" Grid.ColumnSpan="2" Margin="9,1,7,99" Grid.RowSpan="2"/>
+        <Label x:Name="lblPassword" Content="Password:" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Foreground="#FFF5E4E4" FontFamily="Showcard Gothic" FontSize="14" Grid.Column="1" Grid.Row="3"/>
+        <Label x:Name="lblPasswordConfirm" Content="Confirm Password:" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Foreground="#FFF5E4E4" FontFamily="Showcard Gothic" FontSize="14" Grid.Row="4" Grid.ColumnSpan="2" Margin="10,0,0,0"/>
         <TextBox x:Name="txUser" Grid.Column="2" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center" Width="130"/>
         <TextBox x:Name="txPassword" Grid.Column="2" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" Width="130"/>
         <TextBox x:Name="txConfirmUser" Grid.Column="2" Grid.Row="3" HorizontalAlignment="Center" VerticalAlignment="Center" Width="130"/>
