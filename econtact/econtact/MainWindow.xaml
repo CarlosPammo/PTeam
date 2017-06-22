@@ -20,11 +20,11 @@
             <ColumnDefinition Width="*"/>
             <ColumnDefinition Width="0.5*"/>
         </Grid.ColumnDefinitions>
-        <Button x:Name="btnAdd" Content="Add" Grid.Column="1" Grid.Row="1" Margin="3" Height="59" Background="#FFE42A2A" BorderBrush="#FFF5F0EF" ClipToBounds="True" SnapsToDevicePixels="True" FontFamily="Showcard Gothic" FontSize="14" Foreground="#FFF0FBF6" Click="btnAdd_Click"/>
+        <Button x:Name="btnAdd" Content="Add" Grid.Column="1" Grid.Row="1" Margin="3" Background="#FFE42A2A" BorderBrush="#FFF5F0EF" ClipToBounds="True" SnapsToDevicePixels="True" FontFamily="Showcard Gothic" FontSize="14" Foreground="#FFF0FBF6"/>
         <Button x:Name="btnShow" Content="View" Grid.Column="2" Grid.Row="1" Margin="3" Foreground="#FFEFF5F2" Background="#FF0D9EF1" BorderBrush="#FFE9EEF5" FontFamily="Showcard Gothic" FontSize="14"/>
         <Button x:Name="btnExport" Content="Export" Grid.Column="1" Grid.Row="2" Margin="3" BorderBrush="#FFF0EBF1" Background="#FFBF39DC" FontSize="14" FontFamily="Showcard Gothic" Foreground="#FFDBECE3"/>
         <Button x:Name="btnSecurity" Content="Security" Grid.Column="2" Grid.Row="2" Margin="3" Background="#FF16CF83" BorderBrush="#FFE5F3ED" FontFamily="Showcard Gothic" FontSize="14" Foreground="#FFF7F1F1"/>
-        <Button x:Name="btnExitApp" Content="Exit" Grid.Column="2" Margin="2,35,0,0" Grid.Row="3" BorderBrush="#FFF1F7F5" Background="#FFF55B13" Foreground="#FFF1E7E7" FontFamily="Showcard Gothic" FontSize="14" Click="btnExitApp_Click"/>
+        <Button x:Name="btnExitApp" Content="Exit" Grid.Column="2" Margin="2,35,0,0" Grid.Row="3" BorderBrush="#FFF1F7F5" Background="#FFF55B13" Foreground="#FFF1E7E7" FontFamily="Showcard Gothic" FontSize="14"/>
 
     </Grid>
 </Window>

@@ -58,8 +58,8 @@
     <Compile Include="ConfirmUser.xaml.cs">
       <DependentUpon>ConfirmUser.xaml</DependentUpon>
     </Compile>
-    <Compile Include="MenuWindow.xaml.cs">
-      <DependentUpon>MenuWindow.xaml</DependentUpon>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="NewContact.xaml.cs">
       <DependentUpon>NewContact.xaml</DependentUpon>
@@ -82,7 +82,7 @@
     <Compile Include="Login.xaml.cs">
       <DependentUpon>Login.xaml</DependentUpon>
     </Compile>
-    <Page Include="MenuWindow.xaml">
+    <Page Include="MainWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -121,6 +121,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Directory.Model\econtact.Model.csproj">
+      <Project>{a66bd150-29fe-437a-a7b0-e0c660bc84b5}</Project>
+      <Name>econtact.Model</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -18,6 +18,8 @@ C:\Users\Valeria\Desktop\Nueva carpeta (2)\PTeam\econtact\econtact\obj\Debug\eco
 C:\Users\Valeria\Desktop\Nueva carpeta (2)\PTeam\econtact\econtact\obj\Debug\econtact.exe
 C:\Users\Valeria\Desktop\Nueva carpeta (2)\PTeam\econtact\econtact\obj\Debug\econtact.pdb
 C:\Users\Valeria\Desktop\Nueva carpeta (2)\PTeam\econtact\econtact\obj\Debug\ConfirmUser.g.cs
-C:\Users\Valeria\Desktop\Nueva carpeta (2)\PTeam\econtact\econtact\obj\Debug\MenuWindow.g.cs
 C:\Users\Valeria\Desktop\Nueva carpeta (2)\PTeam\econtact\econtact\obj\Debug\ConfirmUser.baml
-C:\Users\Valeria\Desktop\Nueva carpeta (2)\PTeam\econtact\econtact\obj\Debug\MenuWindow.baml
+C:\Users\Valeria\Desktop\Nueva carpeta (2)\PTeam\econtact\econtact\bin\Debug\econtact.Model.dll
+C:\Users\Valeria\Desktop\Nueva carpeta (2)\PTeam\econtact\econtact\bin\Debug\econtact.Model.pdb
+C:\Users\Valeria\Desktop\Nueva carpeta (2)\PTeam\econtact\econtact\obj\Debug\MainWindow.g.cs
+C:\Users\Valeria\Desktop\Nueva carpeta (2)\PTeam\econtact\econtact\obj\Debug\MainWindow.baml

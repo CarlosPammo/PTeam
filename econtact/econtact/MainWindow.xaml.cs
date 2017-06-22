@@ -18,31 +18,32 @@ namespace econtact
     /// <summary>
     /// Lógica de interacción para MenuWindow.xaml
     /// </summary>
-    public partial class MenuWindow : Window
+    public partial class MainWindow : Window
     {
-        private List<Contact> Contacts { get; set; }
-        public MenuWindow()
+        private List<contact> Contacts { get; set; }
+        public MainWindow()
         {
             InitializeComponent();
             Init();
         }
 
+        private void InitializeComponent()
+        {
+            throw new NotImplementedException();
+        }
+
         private void Init()
         {
-            Contacts = new List<Contact>();
+            Contacts = new List<contact>();
         }
                           
         private void btnExitApp_Click(object sender, RoutedEventArgs e)
         {
             Close();
         }
-
         private void btnAdd_Click(object sender, RoutedEventArgs e)
         {
-          //  Contact newContact = new Contact();
-            NewContact editor = new NewContact(nContact);
-            //editor.OnAccept += AddNewCoctact;
-            editor.Show();
+          
         }
     }
 }
