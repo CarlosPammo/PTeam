@@ -45,7 +45,7 @@
             </Grid.ColumnDefinitions>
 
             <Button x:Name="BtnNew" Grid.Column="1" Height="30" Margin="10" Content="Nuevo" />
-            <Button x:Name="BtnCerrar" Grid.Column="2" Height="30" Margin="10" Content="Cerrar" />
+            <Button x:Name="BtnCerrar" Grid.Column="2" Height="30" Margin="10" Content="Cerrar" Click="BtnCerrar_Click" />
         </Grid>
 
     </Grid>

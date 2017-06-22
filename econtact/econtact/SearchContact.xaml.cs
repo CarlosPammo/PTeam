@@ -28,5 +28,10 @@ namespace econtact
         {
 
         }
+
+        private void BtnCerrar_Click(object sender, RoutedEventArgs e)
+        {
+            Close();
+        }
     }
 }

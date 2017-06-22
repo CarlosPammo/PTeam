@@ -9,7 +9,7 @@ namespace econtact.Model
     {
         public string Name { get; set; }
         public string Lastname { get; set; }
-        public string Telephone { get; set; }
+       /* public string Telephone { get; set; }
         public string Address { get; set; }
         public string WorkAddress { get; set; }
         public string Cellphone { get; set; }
@@ -20,6 +20,6 @@ namespace econtact.Model
         public string Birthdate { get; set; }
         public string PostalCode { get; set; }
         public string CivilStatus { get; set; }
-        public string Profession { get; set; }
+        public string Profession { get; set; }*/
     }
 }

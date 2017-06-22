@@ -23,5 +23,10 @@ namespace econtact
         {
             InitializeComponent();
         }
+
+        private void btnExitRecord_Click(object sender, RoutedEventArgs e)
+        {
+            Close();
+        }
     }
 }

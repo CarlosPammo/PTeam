@@ -24,28 +24,32 @@ namespace econtact
         public MainWindow()
         {
             InitializeComponent();
-            Init();
-        }
-
-        private void InitializeComponent()
-        {
-            throw new NotImplementedException();
-        }
-
-        private void Init()
-        {
-            Contacts = new List<contact>();
         }
                           
         private void btnExitApp_Click(object sender, RoutedEventArgs e)
         {
             Close();
         }
+
         private void btnAdd_Click(object sender, RoutedEventArgs e)
         {
             NewContact Ncontact = new NewContact();
             Ncontact.Owner = this;
             Ncontact.ShowDialog();
+        }
+
+        private void btnShow_Click(object sender, RoutedEventArgs e)
+        {
+            SearchContact Scontact = new SearchContact();
+            Scontact.Owner = this;
+            Scontact.ShowDialog();
+        }
+
+        private void btnSecurity_Click(object sender, RoutedEventArgs e)
+        {
+            ConfirmUser Ccontact = new ConfirmUser();
+            Ccontact.Owner = this;
+            Ccontact.ShowDialog();
         }
     }
 }

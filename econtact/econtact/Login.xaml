@@ -42,7 +42,7 @@
                 <ColumnDefinition Width="2*"/>
                 <ColumnDefinition />
             </Grid.ColumnDefinitions>
-            <Button x:Name="BtnAceptar" Grid.Column="2" Height="30" Margin="5" Content="Accept" />
+            <Button x:Name="BtnAceptar" Grid.Column="2" Height="30" Margin="5" Content="Accept" Click="BtnAceptar_Click" />
             <Button x:Name="BtnCancel" Grid.Column="3" Height="30" Margin="5" Content="Exit" />
         </Grid>
     </Grid>

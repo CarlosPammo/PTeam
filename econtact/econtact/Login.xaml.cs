@@ -23,5 +23,10 @@ namespace econtact
         {
             InitializeComponent();
         }
+
+        private void BtnAceptar_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
