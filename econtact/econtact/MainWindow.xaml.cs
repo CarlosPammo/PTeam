@@ -43,7 +43,9 @@ namespace econtact
         }
         private void btnAdd_Click(object sender, RoutedEventArgs e)
         {
-          
+            NewContact Ncontact = new NewContact();
+            Ncontact.Owner = this;
+            Ncontact.ShowDialog();
         }
     }
 }
