@@ -28,7 +28,7 @@
                 <Button Content="LASTNAME"/>
            </ComboBox>
         </Grid>
-        <DataGrid x:Name="DGContacts" Grid.Row="1" Margin="10" AutoGenerateColumns="False"
+        <DataGrid x:Name="DGcontacts" Grid.Row="1" Margin="10" AutoGenerateColumns="False"
 				  DataContext="{Binding}" ItemsSource="{Binding}" >
             <DataGrid.Columns>
                 <DataGridTextColumn Header="Nombre" Binding="{Binding Name}"/>
@@ -36,6 +36,20 @@
                 <DataGridTextColumn Header="Telefono" Binding="{Binding Telephone}"/>
                 <DataGridTextColumn Header="Direccion" Binding="{Binding Address}"/>
             </DataGrid.Columns>
+            <DataGridTemplateColumn>
+                <DataGridTemplateColumn.CellTemplate>
+                    <DataTemplate>
+                        <Button Content="Editar" Click="Update_Click" />
+                    </DataTemplate>
+                </DataGridTemplateColumn.CellTemplate>
+            </DataGridTemplateColumn>
+            <DataGridTemplateColumn>
+                <DataGridTemplateColumn.CellTemplate>
+                    <DataTemplate>
+                        <Button Content="Eliminar" Click="Delete_Click"/>
+                    </DataTemplate>
+                </DataGridTemplateColumn.CellTemplate>
+            </DataGridTemplateColumn>
         </DataGrid>
         <Grid Grid.Row="2">
             <Grid.ColumnDefinitions>

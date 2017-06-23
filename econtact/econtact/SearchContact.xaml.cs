@@ -11,6 +11,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using econtact.Model;
 
 namespace econtact
 {
@@ -28,7 +29,17 @@ namespace econtact
         {
 
         }
-
+        private void Update_Click(object sender, RoutedEventArgs e)
+        {
+            contact selected = (contact)DGcontacts.SelectedItem;
+            NewContact editor = new NewContact(selected);
+            editor.OnAccept += EditContact;
+            editor.Show();
+        }
+        private void EditContact(contact contact)
+        {
+            DGcontacts.Items.Refresh();
+        }
         private void BtnCerrar_Click(object sender, RoutedEventArgs e)
         {
             Close();

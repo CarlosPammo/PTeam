@@ -20,37 +20,43 @@ namespace econtact
     /// </summary>
     public partial class NewContact : Window
     {
-        private List<contact> contacts { get; set; }
-
+        private contact Contact { get; set; }
+        public delegate void GetContact(contact contact);
+        public event GetContact OnAccept;
         public NewContact()
         {
             InitializeComponent();
-            Init();
+            Contact = new contact();
         }
-        private void Init()
-        {
-            contacts = new List<contact>
-                           {
-                               new contact
-                                   {
-                                        Name = "Carlos",
-                                        Lastname = "Pammo",
-                                        
-                                   },
-                                   new contact
-                                   {
-                                        Name = "Roberto",
-                                        Lastname = "Illanes",
-                                        
-                                   },
-                           };
+        public NewContact(contact contact) : this()
+		{
+            TbAddress.Text = contact.Address;
+            TbName.Text = contact.Name;
+            TbLastname.Text = contact.Lastname;
+            TbPhone.Text = contact.Telephone;
+            Contact = contact;
+        }
 
-            //DGContacts.DataContext = Contacts;
-            //DGContacts.Items.Refresh();
-        }
         private void BtnCancel_Click(object sender, RoutedEventArgs e)
         {
             Close();
+        }
+
+        private void BtnAccept_Click(object sender, RoutedEventArgs e)
+        {
+            Contact.Name = TbName.Text;
+            Contact.Lastname = TbLastname.Text;
+            Contact.Telephone = TbPhone.Text;
+            Contact.Cellphone = TbCellphone.Text;
+            Contact.Address = TbAddress.Text;
+            Contact.Birthdate = TbBirthdate.Text;
+            OnAccept(Contact);
+            Close();
+        }
+
+        private void CbxGroup(object sender, SelectionChangedEventArgs e)
+        {
+
         }
     }
 }

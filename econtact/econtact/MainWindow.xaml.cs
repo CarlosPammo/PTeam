@@ -20,12 +20,35 @@ namespace econtact
     /// </summary>
     public partial class MainWindow : Window
     {
-        private List<contact> Contacts { get; set; }
+        private List<contact> contacts { get; set; }
+
         public MainWindow()
         {
             InitializeComponent();
+            Init();
         }
-                          
+        private void Init()
+        {
+            contacts = new List<contact>
+                           {
+                               new contact
+                                   {
+                                        Name = "Carlos",
+                                        Lastname = "Pammo",
+
+                                   },
+                                   new contact
+                                   {
+                                        Name = "Roberto",
+                                        Lastname = "Illanes",
+
+                                   },
+                           };
+
+            DGcontacts.DataContext = contacts;
+            DGcontacts.Items.Refresh();
+        }
+
         private void btnExitApp_Click(object sender, RoutedEventArgs e)
         {
             Close();
