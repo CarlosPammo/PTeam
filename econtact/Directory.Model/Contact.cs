@@ -7,6 +7,9 @@ namespace econtact.Model
 {
     public class contact
     {
+        /// <summary>
+        /// ejemplo
+        /// </summary>
         public string Name { get; set; }
         public string Lastname { get; set; }
        /* public string Telephone { get; set; }
