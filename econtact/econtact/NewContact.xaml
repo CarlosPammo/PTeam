@@ -5,36 +5,44 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:econtact"
         mc:Ignorable="d"
-        Title="NewContact" Height="350" Width="300">
+        Title="NewContact" Height="350" Width="300" Background="#FF0C0000">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="5*" />
             <RowDefinition />
         </Grid.RowDefinitions>
 
-        <Grid Grid.Row="0" Margin="10">
+        <Grid Grid.Row="0" Margin="10" OpacityMask="#FFF7F1F1" Background="Black">
             <Grid.RowDefinitions>
                 <RowDefinition />
                 <RowDefinition />
                 <RowDefinition />
-                <RowDefinition Height="2*" />
+                <RowDefinition Height="*" />
+                <RowDefinition />
+                <RowDefinition />
+
             </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition />
                 <ColumnDefinition Width="2*" />
             </Grid.ColumnDefinitions>
-            <Label Grid.Column="0" Grid.Row="0" Content="Nombre:" VerticalAlignment="Center" />
-            <Label Grid.Column="0" Grid.Row="1" Content="Apellido:" VerticalAlignment="Center" />
-            <Label Grid.Column="0" Grid.Row="2" Content="Telefono:" VerticalAlignment="Center" />
-            <Label Grid.Column="0" Grid.Row="3" Content="Direccion:" VerticalAlignment="Center" />
+            <Label Grid.Column="0" Grid.Row="0" Content="NAME:" VerticalAlignment="Center" Foreground="#FFF1EDED" FontFamily="Showcard Gothic" FontSize="13" HorizontalAlignment="Right" />
+            <Label Grid.Column="0" Grid.Row="1" Content="LASTNAME:" VerticalAlignment="Center" Foreground="#FFF1EDED" FontFamily="Showcard Gothic" FontSize="13" HorizontalAlignment="Right" />
+            <Label Grid.Column="0" Grid.Row="2" Content="TELEPHONE:" VerticalAlignment="Center" Foreground="#FFFDF6F6" FontFamily="Showcard Gothic" FontSize="13" HorizontalAlignment="Right" />
+            <Label Grid.Column="0" Grid.Row="3" Content="CELLPHONE:" VerticalAlignment="Center" Foreground="#FFF1EDED" FontFamily="Showcard Gothic" FontSize="13" HorizontalAlignment="Right" />
+            <Label Grid.Column="0" Grid.Row="4" Content="ADDRESS:" VerticalAlignment="Center" Foreground="#FFF1EDED" FontFamily="Showcard Gothic" FontSize="13" HorizontalAlignment="Right" />
+            <Label Grid.Column="0" Grid.Row="5" Content="BIRTHDATE:" VerticalAlignment="Center" Foreground="#FFF1EDED" FontFamily="Showcard Gothic" FontSize="13" HorizontalAlignment="Right" />
 
-            <TextBox x:Name="TbName" Grid.Column="1" Grid.Row="0" Margin="10" />
+            <TextBox x:Name="TbName" Grid.Column="1" Grid.Row="0" Margin="10,6,10,14" />
             <TextBox x:Name="TbLastname" Grid.Column="1" Grid.Row="1" Margin="10" />
             <TextBox x:Name="TbPhone" Grid.Column="1" Grid.Row="2" Margin="10" />
-            <TextBox x:Name="TbAddress" Grid.Column="1" Grid.Row="3" Margin="10" />
+            <TextBox x:Name="TbCellphone" Grid.Column="1" Grid.Row="3" Margin="10" />
+            <TextBox x:Name="TbAddress" Grid.Column="1" Grid.Row="4" Margin="10" />
+            <TextBox x:Name="TbBirthdate" Grid.Column="1" Grid.Row="5" Margin="10" />
+
         </Grid>
 
-        <Grid Grid.Row="1">
+        <Grid Grid.Row="1" Background="Black">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="2*" />
                 <ColumnDefinition />
