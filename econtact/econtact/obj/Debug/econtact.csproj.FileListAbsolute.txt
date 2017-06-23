@@ -23,3 +23,27 @@ C:\Users\Valeria\Desktop\Nueva carpeta (2)\PTeam\econtact\econtact\bin\Debug\eco
 C:\Users\Valeria\Desktop\Nueva carpeta (2)\PTeam\econtact\econtact\bin\Debug\econtact.Model.pdb
 C:\Users\Valeria\Desktop\Nueva carpeta (2)\PTeam\econtact\econtact\obj\Debug\MainWindow.g.cs
 C:\Users\Valeria\Desktop\Nueva carpeta (2)\PTeam\econtact\econtact\obj\Debug\MainWindow.baml
+C:\Users\HP 245-G5\Documents\Visual Studio 2015\pteam\econtact\econtact\bin\Debug\econtact.exe.config
+C:\Users\HP 245-G5\Documents\Visual Studio 2015\pteam\econtact\econtact\bin\Debug\econtact.exe
+C:\Users\HP 245-G5\Documents\Visual Studio 2015\pteam\econtact\econtact\bin\Debug\econtact.pdb
+C:\Users\HP 245-G5\Documents\Visual Studio 2015\pteam\econtact\econtact\bin\Debug\econtact.Model.dll
+C:\Users\HP 245-G5\Documents\Visual Studio 2015\pteam\econtact\econtact\bin\Debug\econtact.Model.pdb
+C:\Users\HP 245-G5\Documents\Visual Studio 2015\pteam\econtact\econtact\obj\Debug\econtact.csprojResolveAssemblyReference.cache
+C:\Users\HP 245-G5\Documents\Visual Studio 2015\pteam\econtact\econtact\obj\Debug\ConfirmUser.g.cs
+C:\Users\HP 245-G5\Documents\Visual Studio 2015\pteam\econtact\econtact\obj\Debug\Login.g.cs
+C:\Users\HP 245-G5\Documents\Visual Studio 2015\pteam\econtact\econtact\obj\Debug\MainWindow.g.cs
+C:\Users\HP 245-G5\Documents\Visual Studio 2015\pteam\econtact\econtact\obj\Debug\NewContact.g.cs
+C:\Users\HP 245-G5\Documents\Visual Studio 2015\pteam\econtact\econtact\obj\Debug\SearchContact.g.cs
+C:\Users\HP 245-G5\Documents\Visual Studio 2015\pteam\econtact\econtact\obj\Debug\App.g.cs
+C:\Users\HP 245-G5\Documents\Visual Studio 2015\pteam\econtact\econtact\obj\Debug\econtact_MarkupCompile.cache
+C:\Users\HP 245-G5\Documents\Visual Studio 2015\pteam\econtact\econtact\obj\Debug\econtact_MarkupCompile.lref
+C:\Users\HP 245-G5\Documents\Visual Studio 2015\pteam\econtact\econtact\obj\Debug\ConfirmUser.baml
+C:\Users\HP 245-G5\Documents\Visual Studio 2015\pteam\econtact\econtact\obj\Debug\Login.baml
+C:\Users\HP 245-G5\Documents\Visual Studio 2015\pteam\econtact\econtact\obj\Debug\MainWindow.baml
+C:\Users\HP 245-G5\Documents\Visual Studio 2015\pteam\econtact\econtact\obj\Debug\NewContact.baml
+C:\Users\HP 245-G5\Documents\Visual Studio 2015\pteam\econtact\econtact\obj\Debug\SearchContact.baml
+C:\Users\HP 245-G5\Documents\Visual Studio 2015\pteam\econtact\econtact\obj\Debug\econtact.g.resources
+C:\Users\HP 245-G5\Documents\Visual Studio 2015\pteam\econtact\econtact\obj\Debug\econtact.Properties.Resources.resources
+C:\Users\HP 245-G5\Documents\Visual Studio 2015\pteam\econtact\econtact\obj\Debug\econtact.csproj.GenerateResource.Cache
+C:\Users\HP 245-G5\Documents\Visual Studio 2015\pteam\econtact\econtact\obj\Debug\econtact.exe
+C:\Users\HP 245-G5\Documents\Visual Studio 2015\pteam\econtact\econtact\obj\Debug\econtact.pdb
