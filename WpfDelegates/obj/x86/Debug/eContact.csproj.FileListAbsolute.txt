@@ -1,0 +1,16 @@
+C:\Users\Valeria\Desktop\c#\WpfDelegates CRUD\WpfDelegates\WpfDelegates\obj\x86\Debug\EditContact.baml
+C:\Users\Valeria\Desktop\c#\WpfDelegates CRUD\WpfDelegates\WpfDelegates\obj\x86\Debug\MainWindow.baml
+C:\Users\Valeria\Desktop\c#\WpfDelegates CRUD\WpfDelegates\WpfDelegates\obj\x86\Debug\EditContact.g.cs
+C:\Users\Valeria\Desktop\c#\WpfDelegates CRUD\WpfDelegates\WpfDelegates\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Valeria\Desktop\c#\WpfDelegates CRUD\WpfDelegates\WpfDelegates\obj\x86\Debug\App.g.cs
+C:\Users\Valeria\Desktop\c#\WpfDelegates CRUD\WpfDelegates\WpfDelegates\obj\x86\Debug\WpfDelegates_MarkupCompile.cache
+C:\Users\Valeria\Desktop\c#\WpfDelegates CRUD\WpfDelegates\WpfDelegates\obj\x86\Debug\WpfDelegates.g.resources
+C:\Users\Valeria\Desktop\c#\WpfDelegates CRUD\WpfDelegates\WpfDelegates\obj\x86\Debug\WpfDelegates.Properties.Resources.resources
+C:\Users\Valeria\Desktop\c#\WpfDelegates CRUD\WpfDelegates\WpfDelegates\obj\x86\Debug\eContact.csproj.GenerateResource.Cache
+C:\Users\Valeria\Desktop\c#\WpfDelegates CRUD\WpfDelegates\WpfDelegates\obj\x86\Debug\WpfDelegates.exe
+C:\Users\Valeria\Desktop\c#\WpfDelegates CRUD\WpfDelegates\WpfDelegates\obj\x86\Debug\WpfDelegates.pdb
+C:\Users\Valeria\Desktop\c#\WpfDelegates CRUD\WpfDelegates\WpfDelegates\obj\x86\Debug\eContact.csprojResolveAssemblyReference.cache
+C:\Users\Valeria\Desktop\c#\WpfDelegates CRUD\WpfDelegates\WpfDelegates\bin\Debug\WpfDelegates.exe
+C:\Users\Valeria\Desktop\c#\WpfDelegates CRUD\WpfDelegates\WpfDelegates\bin\Debug\WpfDelegates.pdb
+C:\Users\Valeria\Desktop\c#\WpfDelegates CRUD\WpfDelegates\WpfDelegates\bin\Debug\WpfDelegates.Model.dll
+C:\Users\Valeria\Desktop\c#\WpfDelegates CRUD\WpfDelegates\WpfDelegates\bin\Debug\WpfDelegates.Model.pdb
