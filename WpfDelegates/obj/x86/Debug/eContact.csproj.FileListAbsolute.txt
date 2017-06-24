@@ -14,3 +14,5 @@ C:\Users\Valeria\Desktop\c#\WpfDelegates CRUD\WpfDelegates\WpfDelegates\bin\Debu
 C:\Users\Valeria\Desktop\c#\WpfDelegates CRUD\WpfDelegates\WpfDelegates\bin\Debug\WpfDelegates.pdb
 C:\Users\Valeria\Desktop\c#\WpfDelegates CRUD\WpfDelegates\WpfDelegates\bin\Debug\WpfDelegates.Model.dll
 C:\Users\Valeria\Desktop\c#\WpfDelegates CRUD\WpfDelegates\WpfDelegates\bin\Debug\WpfDelegates.Model.pdb
+C:\Users\Valeria\Desktop\c#\WpfDelegates CRUD\WpfDelegates\PTeam\WpfDelegates\obj\x86\Debug\WpfDelegates.exe
+C:\Users\Valeria\Desktop\c#\WpfDelegates CRUD\WpfDelegates\PTeam\WpfDelegates\obj\x86\Debug\WpfDelegates.pdb
