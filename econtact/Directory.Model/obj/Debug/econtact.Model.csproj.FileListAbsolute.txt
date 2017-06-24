@@ -13,3 +13,8 @@ C:\Users\Valeria\Desktop\Nueva carpeta (2)\Nueva carpeta\PTeam\econtact\Director
 C:\Users\Valeria\Desktop\Nueva carpeta (2)\Nueva carpeta\PTeam\econtact\Directory.Model\obj\Debug\econtact.Model.csprojResolveAssemblyReference.cache
 C:\Users\Valeria\Desktop\Nueva carpeta (2)\Nueva carpeta\PTeam\econtact\Directory.Model\obj\Debug\econtact.Model.dll
 C:\Users\Valeria\Desktop\Nueva carpeta (2)\Nueva carpeta\PTeam\econtact\Directory.Model\obj\Debug\econtact.Model.pdb
+C:\Users\Valeria\Desktop\Nueva carpeta (2)\Nueva carpeta (2)\PTeam\econtact\Directory.Model\bin\Debug\econtact.Model.dll
+C:\Users\Valeria\Desktop\Nueva carpeta (2)\Nueva carpeta (2)\PTeam\econtact\Directory.Model\bin\Debug\econtact.Model.pdb
+C:\Users\Valeria\Desktop\Nueva carpeta (2)\Nueva carpeta (2)\PTeam\econtact\Directory.Model\obj\Debug\econtact.Model.csprojResolveAssemblyReference.cache
+C:\Users\Valeria\Desktop\Nueva carpeta (2)\Nueva carpeta (2)\PTeam\econtact\Directory.Model\obj\Debug\econtact.Model.dll
+C:\Users\Valeria\Desktop\Nueva carpeta (2)\Nueva carpeta (2)\PTeam\econtact\Directory.Model\obj\Debug\econtact.Model.pdb

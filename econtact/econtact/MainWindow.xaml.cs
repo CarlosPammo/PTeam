@@ -44,9 +44,7 @@ namespace econtact
 
                                    },
                            };
-
-            DGcontacts.DataContext = contacts;
-            DGcontacts.Items.Refresh();
+            
         }
 
         private void btnExitApp_Click(object sender, RoutedEventArgs e)

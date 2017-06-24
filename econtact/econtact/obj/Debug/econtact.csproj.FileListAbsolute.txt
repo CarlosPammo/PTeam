@@ -71,3 +71,15 @@ C:\Users\Valeria\Desktop\Nueva carpeta (2)\Nueva carpeta\PTeam\econtact\econtact
 C:\Users\Valeria\Desktop\Nueva carpeta (2)\Nueva carpeta\PTeam\econtact\econtact\obj\Debug\econtact.g.resources
 C:\Users\Valeria\Desktop\Nueva carpeta (2)\Nueva carpeta\PTeam\econtact\econtact\obj\Debug\econtact.Properties.Resources.resources
 C:\Users\Valeria\Desktop\Nueva carpeta (2)\Nueva carpeta\PTeam\econtact\econtact\obj\Debug\econtact.csproj.GenerateResource.Cache
+C:\Users\Valeria\Desktop\Nueva carpeta (2)\Nueva carpeta (2)\PTeam\econtact\econtact\bin\Debug\econtact.exe.config
+C:\Users\Valeria\Desktop\Nueva carpeta (2)\Nueva carpeta (2)\PTeam\econtact\econtact\obj\Debug\econtact.exe
+C:\Users\Valeria\Desktop\Nueva carpeta (2)\Nueva carpeta (2)\PTeam\econtact\econtact\obj\Debug\econtact.pdb
+C:\Users\Valeria\Desktop\Nueva carpeta (2)\Nueva carpeta (2)\PTeam\econtact\econtact\obj\Debug\econtact.csprojResolveAssemblyReference.cache
+C:\Users\Valeria\Desktop\Nueva carpeta (2)\Nueva carpeta (2)\PTeam\econtact\econtact\obj\Debug\ConfirmUser.g.cs
+C:\Users\Valeria\Desktop\Nueva carpeta (2)\Nueva carpeta (2)\PTeam\econtact\econtact\obj\Debug\Login.g.cs
+C:\Users\Valeria\Desktop\Nueva carpeta (2)\Nueva carpeta (2)\PTeam\econtact\econtact\obj\Debug\MainWindow.g.cs
+C:\Users\Valeria\Desktop\Nueva carpeta (2)\Nueva carpeta (2)\PTeam\econtact\econtact\obj\Debug\NewContact.g.cs
+C:\Users\Valeria\Desktop\Nueva carpeta (2)\Nueva carpeta (2)\PTeam\econtact\econtact\obj\Debug\SearchContact.g.cs
+C:\Users\Valeria\Desktop\Nueva carpeta (2)\Nueva carpeta (2)\PTeam\econtact\econtact\obj\Debug\App.g.cs
+C:\Users\Valeria\Desktop\Nueva carpeta (2)\Nueva carpeta (2)\PTeam\econtact\econtact\obj\Debug\econtact_MarkupCompile.cache
+C:\Users\Valeria\Desktop\Nueva carpeta (2)\Nueva carpeta (2)\PTeam\econtact\econtact\obj\Debug\econtact_MarkupCompile.lref

@@ -44,11 +44,7 @@
                 </DataGridTemplateColumn.CellTemplate>
             </DataGridTemplateColumn>
             <DataGridTemplateColumn>
-                <DataGridTemplateColumn.CellTemplate>
-                    <DataTemplate>
-                        <Button Content="Eliminar" Click="Delete_Click"/>
-                    </DataTemplate>
-                </DataGridTemplateColumn.CellTemplate>
+              
             </DataGridTemplateColumn>
         </DataGrid>
         <Grid Grid.Row="2">
