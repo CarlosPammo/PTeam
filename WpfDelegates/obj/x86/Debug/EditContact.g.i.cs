@@ -125,6 +125,12 @@ namespace eContact {
             return;
             case 3:
             this.TbPhone = ((System.Windows.Controls.TextBox)(target));
+            
+            #line 29 "..\..\..\EditContact.xaml"
+            this.TbPhone.TextChanged += new System.Windows.Controls.TextChangedEventHandler(this.TbPhone_TextChanged);
+            
+            #line default
+            #line hidden
             return;
             case 4:
             this.TbAddress = ((System.Windows.Controls.TextBox)(target));

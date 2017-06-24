@@ -52,5 +52,15 @@ namespace eContact
 			OnAccept(Contact);
 			Close();
 		}
-	}
+
+        private void TbPhone_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            int number;
+            bool isValid = int.TryParse(TbPhone.Text, out number);
+            if(!isValid)
+            {
+                TbPhone.Text = "";
+            }
+        }
+    }
 }

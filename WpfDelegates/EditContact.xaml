@@ -26,7 +26,7 @@
 
             <TextBox x:Name="TbName" Grid.Column="1" Grid.Row="0" Margin="10" />
             <TextBox x:Name="TbLastname" Grid.Column="1" Grid.Row="1" Margin="10" />
-            <TextBox x:Name="TbPhone" Grid.Column="1" Grid.Row="2" Margin="10" />
+            <TextBox x:Name="TbPhone" Grid.Column="1" Grid.Row="2" Margin="10" TextChanged="TbPhone_TextChanged" />
             <TextBox x:Name="TbAddress" Grid.Column="1" Grid.Row="3" Margin="10" />
         </Grid>
 
