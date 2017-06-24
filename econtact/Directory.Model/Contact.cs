@@ -15,7 +15,6 @@ namespace econtact.Model
         public string Telephone { get; set; }
         public string Address { get; set; }
         public string Cellphone { get; set; }
-        public string Group { get; set; }
         public string Birthdate { get; set; }
 
     }

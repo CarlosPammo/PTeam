@@ -20,33 +20,14 @@ namespace econtact
     /// </summary>
     public partial class MainWindow : Window
     {
-        private List<contact> contacts { get; set; }
 
+        private List<contact> contacts { get; set; }
         public MainWindow()
         {
             InitializeComponent();
-            Init();
+            contacts = new List<contact>();
         }
-        private void Init()
-        {
-            contacts = new List<contact>
-                           {
-                               new contact
-                                   {
-                                        Name = "Carlos",
-                                        Lastname = "Pammo",
-
-                                   },
-                                   new contact
-                                   {
-                                        Name = "Roberto",
-                                        Lastname = "Illanes",
-
-                                   },
-                           };
-            
-        }
-
+        
         private void btnExitApp_Click(object sender, RoutedEventArgs e)
         {
             Close();

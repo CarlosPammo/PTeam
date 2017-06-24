@@ -67,6 +67,7 @@
     <Compile Include="SearchContact.xaml.cs">
       <DependentUpon>SearchContact.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Tbox.cs" />
     <Page Include="ConfirmUser.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>

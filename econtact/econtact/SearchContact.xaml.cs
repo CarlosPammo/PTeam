@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -20,6 +19,10 @@ namespace econtact
     /// </summary>
     public partial class SearchContact : Window
     {
+        private contact Contact { get; set; }
+        private List<contact> contacts { get; set; }
+
+        public delegate void GetContact(contact contact);
         public SearchContact()
         {
             InitializeComponent();
@@ -31,18 +34,46 @@ namespace econtact
         }
         private void Update_Click(object sender, RoutedEventArgs e)
         {
-            contact selected = (contact)DGcontacts.SelectedItem;
+            contact selected = (contact)DGContacts.SelectedItem;
             NewContact editor = new NewContact(selected);
             editor.OnAccept += EditContact;
             editor.Show();
         }
+
+        private void BtnSearch_Click(object sender, RoutedEventArgs e)
+        {
+            DGContacts.DataContext = contacts
+                // Obtiene todos los contactos cuya propiedad Name 
+                // Contenga el texto del texbnox Search
+                .Where(c => c.Name.Contains(TbSearch.Text));
+            DGContacts.Items.Refresh();
+        }
         private void EditContact(contact contact)
         {
-            DGcontacts.Items.Refresh();
+            DGContacts.Items.Refresh();
         }
-        private void BtnCerrar_Click(object sender, RoutedEventArgs e)
+        private void BtnClose_Click(object sender, RoutedEventArgs e)
         {
             Close();
+        }
+
+        private void Telephone_Click(object sender, RoutedEventArgs e)
+        {
+        }
+
+        private void Name_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Cellphone_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void DGContacts_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
         }
     }
 }

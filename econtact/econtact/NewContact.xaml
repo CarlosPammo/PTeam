@@ -20,7 +20,6 @@
                 <RowDefinition Height="*" />
                 <RowDefinition />
                 <RowDefinition />
-                <RowDefinition />
             </Grid.RowDefinitions>
             
             <Grid.ColumnDefinitions>
@@ -33,7 +32,6 @@
             <Label Grid.Column="0" Grid.Row="3" Content="CELLPHONE:" VerticalAlignment="Center" Foreground="#FFF1EDED" FontFamily="Showcard Gothic" FontSize="13" HorizontalAlignment="Right" />
             <Label Grid.Column="0" Grid.Row="4" Content="ADDRESS:" VerticalAlignment="Center" Foreground="#FFF1EDED" FontFamily="Showcard Gothic" FontSize="13" HorizontalAlignment="Right" />
             <Label Grid.Column="0" Grid.Row="5" Content="BIRTHDATE:" VerticalAlignment="Center" Foreground="#FFF1EDED" FontFamily="Showcard Gothic" FontSize="13" HorizontalAlignment="Right" />
-            <Label Grid.Column="0" Grid.Row="6" Content="GROUP:" VerticalAlignment="Center" Foreground="#FFF1EDED" FontFamily="Showcard Gothic" FontSize="13" HorizontalAlignment="Right" />
 
             <TextBox x:Name="TbName" Grid.Column="1" Grid.Row="0" Margin="10,6,10,14" />
             <TextBox x:Name="TbLastname" Grid.Column="1" Grid.Row="1" Margin="10" />
@@ -43,13 +41,6 @@
             <TextBox x:Name="TbBirthdate" Grid.Column="1" Grid.Row="5" Margin="10" />
 
         </Grid>
-        <ComboBox SelectionChanged="CbxGroup" HorizontalAlignment="Left" Margin="116,0,0,25" VerticalAlignment="Bottom" Width="120" Height="15">
-            <Button Content="FAMILY"/>
-            <Button Content="FRIENDS"/>
-            <Button Content="COWORKER"/>
-            <Button Content="SERVICES"/>
-            <Button Content="LEISURE"/>
-        </ComboBox>
         <Grid Grid.Row="1" Background="Black">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="2*" />
