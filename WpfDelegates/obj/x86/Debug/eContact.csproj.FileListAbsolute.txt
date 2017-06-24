@@ -32,3 +32,19 @@ C:\Users\Valeria\Desktop\c#\WpfDelegates CRUD\PTeam\WpfDelegates\obj\x86\Debug\W
 C:\Users\Valeria\Desktop\c#\WpfDelegates CRUD\PTeam\WpfDelegates\obj\x86\Debug\WpfDelegates.g.resources
 C:\Users\Valeria\Desktop\c#\WpfDelegates CRUD\PTeam\WpfDelegates\obj\x86\Debug\WpfDelegates.Properties.Resources.resources
 C:\Users\Valeria\Desktop\c#\WpfDelegates CRUD\PTeam\WpfDelegates\obj\x86\Debug\eContact.csproj.GenerateResource.Cache
+C:\Users\pc9\Documents\Proyecto\PTeam\WpfDelegates\obj\x86\Debug\WpfDelegates.exe
+C:\Users\pc9\Documents\Proyecto\PTeam\WpfDelegates\obj\x86\Debug\WpfDelegates.pdb
+C:\Users\pc9\Documents\Proyecto\PTeam\WpfDelegates\bin\Debug\WpfDelegates.exe
+C:\Users\pc9\Documents\Proyecto\PTeam\WpfDelegates\bin\Debug\WpfDelegates.pdb
+C:\Users\pc9\Documents\Proyecto\PTeam\WpfDelegates\bin\Debug\WpfDelegates.Model.dll
+C:\Users\pc9\Documents\Proyecto\PTeam\WpfDelegates\bin\Debug\WpfDelegates.Model.pdb
+C:\Users\pc9\Documents\Proyecto\PTeam\WpfDelegates\obj\x86\Debug\eContact.csprojResolveAssemblyReference.cache
+C:\Users\pc9\Documents\Proyecto\PTeam\WpfDelegates\obj\x86\Debug\EditContact.baml
+C:\Users\pc9\Documents\Proyecto\PTeam\WpfDelegates\obj\x86\Debug\MainWindow.baml
+C:\Users\pc9\Documents\Proyecto\PTeam\WpfDelegates\obj\x86\Debug\EditContact.g.cs
+C:\Users\pc9\Documents\Proyecto\PTeam\WpfDelegates\obj\x86\Debug\MainWindow.g.cs
+C:\Users\pc9\Documents\Proyecto\PTeam\WpfDelegates\obj\x86\Debug\App.g.cs
+C:\Users\pc9\Documents\Proyecto\PTeam\WpfDelegates\obj\x86\Debug\WpfDelegates_MarkupCompile.cache
+C:\Users\pc9\Documents\Proyecto\PTeam\WpfDelegates\obj\x86\Debug\WpfDelegates.g.resources
+C:\Users\pc9\Documents\Proyecto\PTeam\WpfDelegates\obj\x86\Debug\WpfDelegates.Properties.Resources.resources
+C:\Users\pc9\Documents\Proyecto\PTeam\WpfDelegates\obj\x86\Debug\eContact.csproj.GenerateResource.Cache

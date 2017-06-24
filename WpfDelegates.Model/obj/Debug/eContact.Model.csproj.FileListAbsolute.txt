@@ -3,3 +3,8 @@ C:\Users\Valeria\Desktop\c#\WpfDelegates CRUD\WpfDelegates\WpfDelegates.Model\bi
 C:\Users\Valeria\Desktop\c#\WpfDelegates CRUD\WpfDelegates\WpfDelegates.Model\obj\Debug\eContact.Model.csprojResolveAssemblyReference.cache
 C:\Users\Valeria\Desktop\c#\WpfDelegates CRUD\WpfDelegates\WpfDelegates.Model\obj\Debug\WpfDelegates.Model.dll
 C:\Users\Valeria\Desktop\c#\WpfDelegates CRUD\WpfDelegates\WpfDelegates.Model\obj\Debug\WpfDelegates.Model.pdb
+C:\Users\pc9\Documents\Proyecto\PTeam\WpfDelegates.Model\bin\Debug\WpfDelegates.Model.dll
+C:\Users\pc9\Documents\Proyecto\PTeam\WpfDelegates.Model\bin\Debug\WpfDelegates.Model.pdb
+C:\Users\pc9\Documents\Proyecto\PTeam\WpfDelegates.Model\obj\Debug\eContact.Model.csprojResolveAssemblyReference.cache
+C:\Users\pc9\Documents\Proyecto\PTeam\WpfDelegates.Model\obj\Debug\WpfDelegates.Model.dll
+C:\Users\pc9\Documents\Proyecto\PTeam\WpfDelegates.Model\obj\Debug\WpfDelegates.Model.pdb
